@@ -6,6 +6,7 @@
     "paths": {      
       "@fiber": ["./src/lib/react-three/fiber"],
       "@drei": ["./src/lib/react-three/drei"],
+      "@postprocessing": ["./src/lib/react-three/postprocessing"],
       "@lib/*": ["./src/lib/*"],
       "@components/*": ["./src/components/*"],
       "@scenes/*": ["./src/scenes/*"],
