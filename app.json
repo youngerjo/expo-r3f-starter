@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "expo-r3f-starter",
+    "slug": "expo-r3f-starter",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
