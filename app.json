@@ -2,12 +2,16 @@
   "expo": {
     "name": "expo-r3f-starter",
     "slug": "expo-r3f-starter",
-    "version": "0.1.0",
+    "scheme": "expo-r3f-starter",
+    "version": "0.2.0",
     "orientation": "portrait",
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
+    "web": {
+      "bundler": "metro"
+    },
     "ios": {
       "supportsTablet": true
     }
