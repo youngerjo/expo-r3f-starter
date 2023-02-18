@@ -1,8 +1,20 @@
 import { Suspense } from 'react'
-import { Canvas } from 'lib/react-three/fiber'
-import { Environment } from 'lib/react-three/drei'
-import { EffectComposer, Bloom } from 'lib/react-three/postprocessing'
-import IPhone from 'components/IPhone'
+import { Asset } from 'expo-asset'
+import { Canvas, useFrame } from '@lib/fiber'
+import { Environment, useGLTF, type GLTF } from '@lib/drei'
+import { EffectComposer, Bloom } from '@lib/postprocessing'
+
+const asset = Asset.fromModule(require('@assets/models/iphone.glb'))
+
+function IPhone(props: any) {
+  const { scene } = useGLTF(asset.uri) as GLTF
+
+  useFrame(() => {
+    scene.rotation.y += 0.01
+  })
+
+  return <primitive {...props} object={scene} />
+}
 
 export default function Page() {
   return (

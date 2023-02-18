@@ -4,9 +4,6 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {      
-      "@fiber": ["./lib/react-three/fiber"],
-      "@drei": ["./lib/react-three/drei"],
-      "@postprocessing": ["./lib/react-three/postprocessing"],
       "@lib/*": ["./lib/*"],
       "@components/*": ["./components/*"],
       "@assets/*": ["./assets/*"]
