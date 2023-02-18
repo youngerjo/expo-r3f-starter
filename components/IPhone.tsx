@@ -1,5 +1,5 @@
-import { useFrame } from '@fiber'
-import { useGLTF, type GLTF } from '@drei'
+import { useFrame } from 'lib/react-three/fiber'
+import { useGLTF, type GLTF } from 'lib/react-three/drei'
 import { Asset } from 'expo-asset'
 
 const asset = Asset.fromModule(require('@assets/models/iphone.glb'))

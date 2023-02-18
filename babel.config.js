@@ -11,14 +11,15 @@ module.exports = function (api) {
   return {
     presets: ['babel-preset-expo'],
     plugins: [
+      require.resolve('expo-router/babel'),
       [
         'module-resolver',
         {
           root: ['.'],
           extensions: ['.js', '.jsx', '.ts', '.tsx', '.cjs', '.mjs', '.json'],
-          alias,
-        },
-      ],
-    ],
+          alias
+        }
+      ]
+    ]
   }
 }

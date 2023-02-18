@@ -1,10 +1,10 @@
 import { Suspense } from 'react'
-import { Canvas } from '@fiber'
-import { Environment } from '@drei'
-import { EffectComposer, Bloom } from '@postprocessing'
-import IPhone from '@components/IPhone'
+import { Canvas } from 'lib/react-three/fiber'
+import { Environment } from 'lib/react-three/drei'
+import { EffectComposer, Bloom } from 'lib/react-three/postprocessing'
+import IPhone from 'components/IPhone'
 
-export default function App() {
+export default function Page() {
   return (
     <Canvas gl={{ physicallyCorrectLights: true }} camera={{ position: [-6, 0, 16], fov: 36 }}>
       <color attach="background" args={[0xe2f4df]} />
