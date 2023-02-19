@@ -1,6 +1,6 @@
 {
-  "name": "expo-r3f-starter",
-  "version": "0.3.1",
+  "name": "r3f-expo-starter",
+  "version": "0.3.2",
   "license": "MIT",
   "scripts": {
     "start": "expo start",
