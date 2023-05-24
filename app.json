@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "R3F Expo Starter",
-    "slug": "r3f-expo-starter",
-    "scheme": "r3f-expo-starter",
+    "name": "Expo R3F Starter",
+    "slug": "expo-r3f-starter",
+    "scheme": "expo-r3f-starter",
     "version": "0.3.2",
     "orientation": "portrait",
     "updates": {
