@@ -3,7 +3,7 @@
     "name": "Expo R3F Starter",
     "slug": "expo-r3f-starter",
     "scheme": "expo-r3f-starter",
-    "version": "0.3.2",
+    "version": "0.4.0",
     "orientation": "portrait",
     "updates": {
       "fallbackToCacheTimeout": 0

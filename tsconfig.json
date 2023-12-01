@@ -3,7 +3,7 @@
   "compilerOptions": {
     "strict": true,
     "baseUrl": ".",
-    "paths": {      
+    "paths": {
       "@lib/*": ["./lib/*"],
       "@components/*": ["./components/*"],
       "@assets/*": ["./assets/*"]
