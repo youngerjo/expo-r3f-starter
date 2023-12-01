@@ -6611,6 +6611,11 @@ ms@2.1.3, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
+mugl@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/mugl/-/mugl-0.3.0.tgz#d5e03115803c9b4b2c9826ae7af82987ea48f69a"
+  integrity sha512-QKIJyWjXNKycAFaiOssO6/qa24WsGMQ54McrmXfrgaOttcBoBruh8srzixhdoi3eBS7Xq68scLa5JKbtNmrEWg==
+
 multicast-dns@^7.2.5:
   version "7.2.5"
   resolved "https://registry.yarnpkg.com/multicast-dns/-/multicast-dns-7.2.5.tgz#77eb46057f4d7adbd16d9290fa7299f6fa64cced"
